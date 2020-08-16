@@ -50,7 +50,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title><?php echo $_GET['stream']; ?> is live</title>
     <link rel="stylesheet" type="text/css" href="index.css" />
     <link href="//vjs.zencdn.net/7.8.2/video-js.min.css" rel="stylesheet">
     <script src="//vjs.zencdn.net/7.8.2/video.min.js"></script>
